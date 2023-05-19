@@ -96,9 +96,15 @@ def fallen(update: Update, context: CallbackContext):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="add_chat({})"),
-                InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data="rm_chat({})"),
-            ],
+                InlineKeyboardButton(text="♥️𝐓𝐮𝐫𝐧 𝐎𝐧♥️", callback_data="add_chat({})"),
+                InlineKeyboardButton(text="😭𝐓𝐮𝐫𝐧 𝐨𝐟𝐟😭", callback_data="rm_chat({})"),
+            ],            
+            [
+        InlineKeyboardButton(
+            text="🎈α∂∂ мє ιη уσυ ¢нαт🎈",
+            url=f"https://t.me/Simi1Robot?startgroup=true",
+        ),
+    ],
         ]
     )
     message.reply_text(
