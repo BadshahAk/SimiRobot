@@ -71,45 +71,48 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-♥️𝐖𝐞𝐥𝐜𝐨𝐦𝐞 `{}`, ♥️ 
+𝐖𝐞𝐥𝐜𝐨𝐦𝐞 `{}`,  
 """
 
 
 PM_START_TEXT = """ 
-*ʜᴇʏ* {} , [.](https://te.legra.ph/file/1347e7db63c0ace2611e6.jpg)
-╔ ❰★@pandit\_Andy★❱
-║
-┣⪼ {} 
-║
-╚ ❰★@pandit\_Andy★❱
-➻ ƒυℓℓу ♦️ ѕмσσтн 🧶 αη∂ ¢υтє🧸 мαмαgємєηт💖 вσт🔰 ƒσя ¢αηтяσℓ♥️ єνєяутнιηg.
+*ʜᴇʏ* {} , [.](https://te.legra.ph/file/13ef0a74d57873d103d7d.jpg)
+╭══════════💚═╮
+༺ {} ༻
+╰═💜══════════╯
+╔━━❖❖💠❖❖━━╗ 
+✮ [Dil♥️](https://t.me/pandit_Andy) ✮
+╚━━❖❖💠❖❖━━╝
 тнιѕ вσт σηℓу ƒσя мαηαgємєηт😊
-╔═════Andy۩۞۩Andy════╗
-      
-♥️═══[♥️ι ℓσνє уσυ ♥️](https://t.me/pandit_Andy)═══♥
-
-╚═════Andy۩۞۩Andy════╝
-
-☆..♥️......♥️......❦𝙰𝚗𝚜𝚒࿐☆​​​​​​​​​​......♥️......♥️..☆
+🖤🖤🖤🖤🖤🖤⇣❥ Super smooth🔸
+♥️♥️♥️♥️♥️⇣❥ super advance🔸
+💙💙💙💙⇣❥chatbot added🔸
+💜💜💜⇣❥deploy on VPS🔸
+💛💛⇣❥love themed🔸
+💚⇣❥Manage by [Andy](https://t.me/Vindayak)
+༺🖤༻༺🧡༻༺💛༻༺💜༻༺💙༻༺🧡༻༺💚༻
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🎈α∂∂ мє ιη уσυ ¢нαт🎈",
+            text="✿α∂∂ мє ιη уσυ ¢нαт✿",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="♥️ѕυρєя ¢σммαη∂ѕ♥️", callback_data="help_back"),
+        InlineKeyboardButton(text="✿ѕυρєя ¢σммαη∂ѕ✿", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="♥️ 𝙻𝚘𝚟𝚎 ♥️", callback_data="Simi_"),
-        InlineKeyboardButton(text="♥️¢нαттιηg♥️", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✿ 𝙻𝚘𝚟𝚎 ✿", callback_data="Simi_"),
+        InlineKeyboardButton(text="✿¢нαттιηg✿", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="♥️ᥴ᥅ꫀꪖꪻꪮ᥅♥️", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="♥️𝑠𝑢𝑝𝑝𝑜𝑟𝑡♥️", url="https://t.me/Ammu_Robot_support"),
+        InlineKeyboardButton(text="✿ᥴ᥅ꫀꪖꪻꪮ᥅✿", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="✿𝑠𝑢𝑝𝑝𝑜𝑟𝑡✿", url="https://t.me/Ammu_Robot_support"),
+    ],
+    [
+        InlineKeyboardButton(text="✿ support ✿", callback_data="Simi_support"),
     ],
     [
         InlineKeyboardButton(text="♥️𝙎𝙪𝙥𝙚𝙧🔸𝙎𝙤𝙪𝙧𝙘𝙚♥️", url="https://github.com/BadshahAk/SimiRobot"),
@@ -117,7 +120,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-» {BOT_NAME}  ♥️¢ℓι¢к♥️ [.](https://te.legra.ph/file/661bdc6fcc667d26a2438.jpg)  αηу вυттση♦️ вєℓσω тσ gєт кησωℓα∂gє♥️ ᴀʙᴏᴜᴛ🧸 ѕυρєя 🔰¢σммαη∂"""
+» {BOT_NAME}  ♥️¢ℓι¢к♥️ [.](https://te.legra.ph/file/2885404f7eb4e5fbb3dea.mp4)  αηу вυттση♦️ вєℓσω тσ gєт кησωℓα∂gє♥️ ᴀʙᴏᴜᴛ🧸 ѕυρєя 🔰¢σммαη∂"""
 DONATE_STRING = """ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [♥️ᥴ᥅ꫀꪖꪻꪮ᥅♥️](https://te.legra.ph/file/df3219738fd7e9c45ea36.jpg)."""
@@ -206,7 +209,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="♥️", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="《", callback_data="help_back")]]
                     ),
                 )
 
@@ -330,7 +333,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="♥️", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="《", callback_data="help_back")]]
                 ),
             )
 
@@ -399,7 +402,7 @@ def Simi_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                    [
-                        InlineKeyboardButton(text="♥️", callback_data="Simi_back"),
+                        InlineKeyboardButton(text="《", callback_data="Simi_back"),
                     ],
                 ]
             ),
@@ -427,7 +430,7 @@ def Simi_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="♥️", callback_data="Simi_"),
+                        InlineKeyboardButton(text="《", callback_data="Simi_"),
                     ],
                 ]
             ),
@@ -895,7 +898,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="♥️", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="《", callback_data="help_back")]]
             ),
         )
 
@@ -968,7 +971,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="♥",
+                                text="《",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -1124,11 +1127,9 @@ def main():
                 animation="https://te.legra.ph/file/c18fa39746e72f62b1b7a.mp4",
                 caption=f"""
 ㅤ{dispatcher.bot.first_name} 
-
-╔═════ஜ۩۞۩ஜ═════╗
-  ♥️𝗠𝗔𝗗𝗘 𝗕𝗬 [LEGEND](https://t.me/pandit_Andy)♥️
-  
-╚═════ஜ۩۞۩ஜ═════╝
+╔━━❖❖🖤❖❖━━╗
+◆💠◈ [Legend](https://t.me/pandit_Andy)◈💠◆
+╚━━❖❖🖤❖❖━━╝
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
