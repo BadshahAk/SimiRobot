@@ -176,11 +176,11 @@ async def mentionall(event):
         msg = await event.get_reply_message()
         if msg == None:
             return await event.respond(
-                "/tagall hii 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 𝐎𝐫 𝐑𝐞𝐩𝐥𝐲 𝐀𝐧𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞..."
+                "/tagall Simi 👈 𝐊𝐨𝐧𝐬𝐢 𝐩𝐫𝐚𝐣𝐚𝐭𝐢 𝐤𝐞 𝐥𝐨𝐠 𝐡𝐨, 𝐦𝐬𝐠 𝐝𝐚𝐥𝐧𝐚 𝐬𝐢𝐤𝐡𝐨😂"
             )
     else:
         return await event.respond(
-            "/tagall hii 👈 𝐓𝐲𝐩𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 𝐎𝐫 𝐑𝐞𝐩𝐥𝐲 𝐀𝐧𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞..."
+            "/tagall Simi 👈 𝐊𝐨𝐧𝐬𝐢 𝐩𝐫𝐚𝐣𝐚𝐭𝐢 𝐤𝐞 𝐥𝐨𝐠 𝐡𝐨, 𝐦𝐬𝐠 𝐝𝐚𝐥𝐧𝐚 𝐬𝐢𝐤𝐡𝐨😂"
 
         )
 
@@ -233,7 +233,7 @@ async def cancel_spam(event):
             spam_chats.remove(event.chat_id)
         except:
             pass
-        return await event.respond("♦𝐒𝐭𝐨𝐩𝐩𝐞𝐝 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐁𝐚𝐛𝐲♦")
+        return await event.respond("😂𝐊𝐫 𝐝𝐢𝐲𝐚 𝐛𝐧𝐝, 𝐚𝐛 𝐤𝐡𝐮𝐬𝐡😂")
 
 
 __mod_name__ = "✤Tᴀɢ✤"
