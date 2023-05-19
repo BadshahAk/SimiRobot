@@ -78,10 +78,10 @@ PM_START_TEX = """
 PM_START_TEXT = """ 
 *ʜᴇʏ* {} , [.](https://te.legra.ph/file/13ef0a74d57873d103d7d.jpg)
 ╭══════════💚═╮
-     ༺ {} ༻
+ ༺༺༺ {} ༻༻༻
 ╰═💜══════════╯
 ╔━━❖❖💠❖❖━━╗ 
-   ✮ [Dil♥️](https://t.me/pandit_Andy) ✮
+༺༺✮ [Dil♥️](https://t.me/pandit_Andy) ✮༻༻
 ╚━━❖❖💠❖❖━━╝
 тнιѕ вσт σηℓу ƒσя мαηαgємєηт😊
 🖤🖤🖤🖤🖤🖤⇣❥ Super smooth🔸
@@ -90,7 +90,7 @@ PM_START_TEXT = """
 💜💜💜⇣❥deploy on VPS🔸
 💛💛⇣❥love themed🔸
 💚⇣❥Manage by [Andy](https://t.me/Vindayak)
-༺🖤༻༺🧡༻༺💛༻༺💜༻༺💙༻༺🧡༻༺💚༻
+༺🖤༻༺🧡༻༺💛༻༺💜༻
 """
 
 buttons = [
