@@ -78,10 +78,10 @@ PM_START_TEX = """
 PM_START_TEXT = """ 
 *ʜᴇʏ* {} , [.](https://te.legra.ph/file/13ef0a74d57873d103d7d.jpg)
 ╭══════════💚═╮
-༺ {} ༻
+     ༺ {} ༻
 ╰═💜══════════╯
 ╔━━❖❖💠❖❖━━╗ 
-✮ [Dil♥️](https://t.me/pandit_Andy) ✮
+   ✮ [Dil♥️](https://t.me/pandit_Andy) ✮
 ╚━━❖❖💠❖❖━━╝
 тнιѕ вσт σηℓу ƒσя мαηαgємєηт😊
 🖤🖤🖤🖤🖤🖤⇣❥ Super smooth🔸
@@ -112,7 +112,7 @@ buttons = [
         InlineKeyboardButton(text="✿𝑠𝑢𝑝𝑝𝑜𝑟𝑡✿", url="https://t.me/Ammu_Robot_support"),
     ],
     [
-        InlineKeyboardButton(text="✿ support ✿", callback_data="Simi_support"),
+        InlineKeyboardButton(text="✿ Extra ✿", callback_data="Simi_support"),
     ],
     [
         InlineKeyboardButton(text="♥️𝙎𝙪𝙥𝙚𝙧🔸𝙎𝙤𝙪𝙧𝙘𝙚♥️", url="https://github.com/BadshahAk/SimiRobot"),
@@ -418,7 +418,7 @@ def Simi_about_callback(update: Update, context: CallbackContext):
                             text="🚩sᴜᴩᴩᴏʀᴛ🚩", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="💗ᴜᴩᴅᴀᴛᴇs💓", url=f"https://t.me/Simibotzone"
+                            text="💗ᴜᴩᴅᴀᴛᴇs💓", url=f"https://t.me/Ammu_Robot_support"
                         ),
                     ],
                     [
@@ -426,7 +426,7 @@ def Simi_about_callback(update: Update, context: CallbackContext):
                             text="🥀ᴅᴇᴠᴇʟᴏᴩᴇʀ🥀", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="✨ɢɪᴛʜᴜʙ✨", url="https://github.com/noob-Simi"
+                            text="✨ɢɪᴛʜᴜʙ✨", url="https://github.com/BadshahAk"
                         ),
                     ],
                     [
