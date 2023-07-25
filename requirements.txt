@@ -82,7 +82,7 @@ sqlalchemy==1.4.46
 
 telegraph==2.2.0
 
-telethon==1.28.5
+telethon==1.29.2
 
 tgcrypto==1.2.5
 
